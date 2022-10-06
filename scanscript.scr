@@ -2,6 +2,6 @@ login_file WIN-OO7D1QKUTRK "C:\ProgramData\HCL\AppScanSource\config\ounceautod.t
 RUNAS AUTO
 oa "AltoroJ_1.paf" -appserver_type "Tomcat7" -no_ear_project
 ra "AltoroJ_1.ozasmt" -scanconfig "Normal scan"
-rpt "Software Security Profile" html "C:\action-runners\AltoroJ_SecurityReport.html" -includeHowToFix -includeSrcBefore:5 -includeSrcAfter:5 -includeTrace:suspect
+rpt "Software Security Profile" html AltoroJ_1_SecurityReport.html -includeHowToFix -includeSrcBefore:5 -includeSrcAfter:5 -includeTrace:suspect
 pase "C:\actions-runner\_work\ASCAS4GHR\ASCAS4GHR\AltoroJ_1.ozasmt" -name AltoroJ_1 -aseapplication AltoroJ_GitRun
 exit
