@@ -27,7 +27,7 @@ The following 4 files in the repo are required:
 * __you can find the action logs
 ![Screenshot 2022-10-06 at 4 57 42 PM](https://user-images.githubusercontent.com/9972259/194269507-abe0f97b-b6cd-4a8b-b283-402871f1536c.png)
 
-* __you can run multiple runner the same machine
+* __you can run multiple runner at the same machine
 <img width="820" alt="Screenshot 2022-10-06 at 4 54 38 PM" src="https://user-images.githubusercontent.com/9972259/194269974-61a292fb-d95e-406f-9210-550ca7b34668.png">
 
 
