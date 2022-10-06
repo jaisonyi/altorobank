@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project default_configuration_name="Configuration 1" fallback_default_config_name="Configuration 1" jsp_compiler_info_name="Tomcat 7" jsp_compiler_type="7" ltd_name="java" name="altoroJ_1" version="10.0.8" web_context_root_path=".\WebContent">
+	<Configuration class_path="C:\apache-tomcat-7.0.99\lib\servlet-api.jar;altoroj_staging\WEB-INF\lib\commons-codec-1.6.jar;altoroj_staging\WEB-INF\lib\commons-lang-2.5.jar;altoroj_staging\WEB-INF\lib\javax.annotation-api-1.2.jar;altoroj_staging\WEB-INF\lib\javax.ws.rs-api-2.1.jar;altoroj_staging\WEB-INF\lib\jersey-server-2.27.jar;WebContent\WEB-INF\lib\Log4AltoroJ.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\rt.jar;altoroj_staging\WEB-INF\lib\wink-json4j-1.4.jar" jdk_name="AdoptOpenJDK 11 64 bit" name="Configuration 1"/>
+	<Source exclude="false" path=".\altoroj_staging\_ozs\s2" web="false"/>
+	<Source exclude="false" path=".\src" web="false"/>
+	<Source exclude="false" path=".\WebContent" web="true"/>
+	<Properties>
+		<Property name="clean" value="true"/>
+		<Property name="source_staging" value="true"/>
+		<Property name="correct_packages" value="true"/>
+	</Properties>
+	<ProjectScanSettings/>
+</Project>
