@@ -1,7 +1,7 @@
 login_file WIN-OO7D1QKUTRK "C:\ProgramData\HCL\AppScanSource\config\ounceautod.token" -acceptssl
 RUNAS AUTO
 OF "E:\actions-runner\actions-runner-win-x64-2.299.1\_work\altorobank\altorobank"
-scan "AltoroJ_3.2.ozasmt" -scanconfig "Normal scan"
+scan AltoroJ_3.2.ozasmt -scanconfig "Normal scan"
 rpt "Software Security Profile" html E:\actions-runner\actions-runner-win-x64-2.299.1\_work\altorobank\altorobank\AltoroJ_1_SecurityReport.html -includeHowToFix -includeSrcBefore:5 -includeSrcAfter:5 -includeTrace:suspect
 pase "E:\actions-runner\actions-runner-win-x64-2.299.1\_work\altorobank\altorobank\AltoroJ_3.2.ozasmt" -name AltoroJ_1 -aseapplication AltoroJ_GitRun
 exit
