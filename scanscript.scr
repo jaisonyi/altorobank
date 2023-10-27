@@ -8,7 +8,7 @@ SCAN altorobank.ozasmt
 
 rpt "Software Security Profile" html "E:\Downloads\actions-runner-win-x64-2.299.1\_work\altorobank\altorobank\altorobank_SecurityReport.html" -includeHowToFix -includeSrcBefore:5 -includeSrcAfter:5 -includeTrace:suspect
 
-pase "E:\Downloads\actions-runner-win-x64-2.299.1\_work\altorobank\altorobank\altorobank.ozasmt" -name altorobank -aseapplication AltoroJ_GitRun
+## pase "E:\Downloads\actions-runner-win-x64-2.299.1\_work\altorobank\altorobank\altorobank.ozasmt" -name altorobank1 -aseapplication AltoroJ_GitRun
 
 exit
 
