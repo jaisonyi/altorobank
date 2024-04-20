@@ -2,13 +2,13 @@ login_file WIN-OO7D1QKUTRK "C:\ProgramData\HCL\AppScanSource\config\ounceautod.t
 
 RUNAS AUTO
 
-OF "E:\Downloads\actions-runner-win-x64-2.299.1\_work\altorobank\altorobank"
+OF "E:\actions-runner\AltoroBank-GIthub\_work\altorobank\altorobank"
 
 SCAN altorobank.ozasmt 
 
-rpt "Software Security Profile" html "E:\Downloads\actions-runner-win-x64-2.299.1\_work\altorobank\altorobank\altorobank_SecurityReport.html" -includeHowToFix -includeSrcBefore:5 -includeSrcAfter:5 -includeTrace:suspect
+rpt "Software Security Profile" html "E:\actions-runner\AltoroBank-GIthub\_work\altorobank\altorobank\altorobank_SecurityReport.html" -includeHowToFix -includeSrcBefore:5 -includeSrcAfter:5 -includeTrace:suspect
 
-## pase "E:\Downloads\actions-runner-win-x64-2.299.1\_work\altorobank\altorobank\altorobank.ozasmt" -name altorobank1 -aseapplication AltoroJ_GitRun
+## pase "E:\actions-runner\AltoroBank-GIthub\_work\altorobank\altorobank\altorobank.ozasmt" -name altorobank1 -aseapplication AltoroJ_GitRun
 
 exit
 
